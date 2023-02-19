@@ -5,3 +5,9 @@
     flex-wrap: wrap;
     margin-left: 50px;
 }
+
+@media (max-width: 750px) {
+    .containerCards{
+        margin-left: 0;
+    }
+}
