@@ -1,0 +1,27 @@
+.NavBar{
+    background: rgba(16, 121, 226, 0.701);
+    background: linear-gradient(0deg, rgba(29, 84, 172, 0.968) 3%, rgba(40, 113, 230, 0.934) 35%);
+    display: flex;
+    padding: 20px;
+    opacity: .9;
+    gap: 20px;
+    border-bottom: 1px solid #0d91f675;
+    position: fixed;
+    width: 100%;
+    transition: all .5s linear;
+}
+
+.NavBar:hover{
+    box-shadow: rgb(15,229,242) 0px 20px 30px -10px;
+    transition: all .7s linear;
+    -webkit-transition: all .7s linear;
+    -moz-transition: all .7s linear;
+    -ms-transition: all .7s linear;
+    -o-transition: all .7s linear;
+}
+
+.link{
+    text-decoration: none;
+    font-weight: 800;
+    color: rgba(11, 101, 228, 0.767);
+}
