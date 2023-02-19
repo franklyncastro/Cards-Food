@@ -4,7 +4,7 @@ import "../Card/Card.css";
 
 const Card = ({titulo, descipcion, precio, imagen}) => {
   return (
-    <div className="container">
+    <div className="container animate__animated animate__backInUp">
       <div className="card">
         <div className="img">
           <img src={imagen} alt="img no found" className="image" />
