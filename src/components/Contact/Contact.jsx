@@ -47,6 +47,8 @@ const Contact = () => {
                 className="input"
                 onChange={handleChangeInput}
                 value={form.nombre}
+                required
+                autoComplete="off"
               />
             </div>
             <div className="inputsLabel">
@@ -60,6 +62,7 @@ const Contact = () => {
                 className="input"
                 onChange={handleChangeInput}
                 value={form.apellido}
+                autoComplete="off"
               />
             </div>
             <div className="inputsLabel">
@@ -73,6 +76,8 @@ const Contact = () => {
                 className="input"
                 onChange={handleChangeInput}
                 value={form.email}
+                required
+                autoComplete="off"
               />
             </div>
             <div className="inputsLabel">
