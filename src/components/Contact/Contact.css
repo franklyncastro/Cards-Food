@@ -1,0 +1,42 @@
+.allContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+
+.inputsLabel{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    color: #1577c7;
+}
+
+.input{
+    width: 350px;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    border: 2px solid #1577c7;
+}
+
+.btnForm{
+    cursor: pointer;
+}
+
+.labels{
+    font-weight: 800;
+    font-size: 1.1rem;
+}

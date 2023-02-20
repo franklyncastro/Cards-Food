@@ -16,6 +16,11 @@ const Nav = () => {
         </Link>
       </div>
       <div>
+        <Link to="/contacto" className="link">
+        <i class="fa-solid fa-address-book"></i> Contacto
+        </Link>
+      </div>
+      <div>
       </div>
     </div>
   );
