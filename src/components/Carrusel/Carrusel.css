@@ -1,0 +1,23 @@
+.SliderImg{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    cursor: move;
+}
+
+.ContainerImg{
+    margin-top: 100px;
+    height: 500px; 
+}
+
+.Slider{
+    width: 100vh;
+    margin: 0 auto;  
+}
+
+
+.slick-prev, .slick-next {
+    top: 80%;
+    display: none !important;
+}

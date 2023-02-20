@@ -6,7 +6,6 @@ import data from "../data";
 const Cards = () => {
   return (
     <div className="containerCards">
-    
       {data.map((data) => (
         <Card
           key={data.id}
