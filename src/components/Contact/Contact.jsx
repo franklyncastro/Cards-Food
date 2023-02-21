@@ -1,8 +1,10 @@
 import React from "react";
 import "../Contact/Contact.css";
 import { useState } from "react";
+import {useNavigate} from 'react-router-dom'
 
 const Contact = () => {
+  const navigate = useNavigate();
   const [form, setForm] = useState({
     nombre: "",
     apellido: "",
@@ -28,12 +30,13 @@ const Contact = () => {
       telefono: "",
     });
     alert('Los datos se enviaron correctamente')
+    navigate('/')
   };
 
   return (
-    <div className="allContainer">
+    <div className="allContainer animate__animated animate__lightSpeedInRight animate__delay-.8s">
       <form onSubmit={onSubmit}>
-        <h1>Formulario de contacto</h1>
+        <h1 className="animate__animated animate__flipInX animate__delay-1s">Formulario de contacto</h1>
         <div className="divsContainer">
           <div className="inputContainer">
             <div className="inputsLabel">
