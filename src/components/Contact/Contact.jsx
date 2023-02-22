@@ -94,6 +94,7 @@ const Contact = () => {
                 className="input"
                 onChange={handleChangeInput}
                 value={form.telefono}
+                autoComplete="off"
               />
             </div>
             <div className="inputsLabel">

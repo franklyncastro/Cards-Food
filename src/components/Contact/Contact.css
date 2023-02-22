@@ -30,7 +30,9 @@ form{
     border-radius: 20px;
     text-align: center;
     border: 2px solid #1577c7;
+    outline: none;
 }
+
 
 .btnForm{
     cursor: pointer;
